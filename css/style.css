@@ -1,0 +1,93 @@
+html, body
+{
+    background: #6699CC;
+}
+
+#container
+{
+    top: 30px;
+    left: 30px;
+    position:absolute;
+    right: 30px;
+    bottom: 0px; 
+    width: 1200px;
+}
+
+#header
+{
+    background: url("banner.jpg") no-repeat scroll left top #AAAAAA;
+/*     background: #AAAAAA; */
+    height: 300px;
+    margin-bottom: 10px;
+    width: 1200px;
+}
+
+#menu
+{
+    font-family: Tahoma,Verdana,Arial,Sans-Serif;
+    background: #5577AA;
+    width: 200px;
+    position: absolute;
+    height: 1500px;
+    margin-bottom: 30px;
+}
+
+#menu ul
+{
+    background-color:inherit;
+    list-style: none outside none;
+    margin: 0;
+    padding: 10px;
+}    
+
+#menu li
+{
+    display: block;
+    text-decoration: none;
+    font-size: 1.3em;
+    line-height: 23px;
+    text-align: left;
+    padding-top: 10px;
+/*     font-weight: bold; */
+}
+
+#menu a:link,
+#menu a:visited,
+#menu a:active 
+{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+/*     color: #3D3DFF; */
+/*     font-size: 1.1em; */
+    line-height: 23px;
+    text-align: left;
+    padding-top: 5px;
+
+}
+
+#menu a:hover
+{
+/*     background-color: #FFFF7A; */
+    font-weight: bold;
+}
+
+#content
+{
+    font-family: Tahoma,Verdana,Arial,Sans-Serif;
+    background: #FFFFFF;
+    top: 310px;
+    left: 210px;
+    right: 0px;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 20px;
+    height: 1500px;
+    margin-bottom: 30px;
+/*     bottom: 0px; */
+}
+
+#content p
+{
+    text-align:justify;
+}
